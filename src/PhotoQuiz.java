@@ -50,7 +50,7 @@ else {
 	JOptionPane.showMessageDialog(quizWindow, "INCORRECT! DX<");
 }
 		// 9. remove the component from the quiz window (you may not see the effect of this until step 12)
-
+quizWindow.remove(Image);
 		// 10. find another image and create it (might take more than one line of code)
 
 		// 11. add the second image to the quiz window
