@@ -31,6 +31,20 @@ public static int height;
 	// teal house
 	
 	DrawFlatHouse(0,225, 225,60);
+	//turquoise house
+	
+	DrawGrass();
+	rob.turn(-90);
+	DrawHouse(0,206,209,10);
+	//lavender house
+	DrawGrass();
+	
+	DrawFlatHouse(230,230,250,70);
+	
+	//green house
+	DrawGrass();
+	DrawFlatHouse(0,225,0,40);
+	DrawGrass();
 	}
 public static void DrawHouse(int r, int g, int b, int height) {
 	rob.penDown();
